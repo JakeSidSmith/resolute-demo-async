@@ -30,6 +30,7 @@ const Navbar = () => {
   return (
     <nav className={styles.navbar}>
       <StyledLink href="/">Home</StyledLink>
+      <StyledLink href="/react-helmet/">React Helmet</StyledLink>
       <StyledLink href="/async-component-and-api/">
         Async component and API
       </StyledLink>
