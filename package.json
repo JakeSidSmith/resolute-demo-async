@@ -1,0 +1,54 @@
+{
+  "name": "resolute-demo-async",
+  "version": "0.0.0",
+  "description": "Demo of @blinkorb/resolute for Async's International Show n Tell 2023",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "resolute dev",
+    "build": "resolute build",
+    "typecheck": "tsc --noEmit",
+    "format-check": "prettier --check '**/*'",
+    "format": "prettier --write '**/*'",
+    "lint": "eslint './src/**/*.{ts,tsx,js,jsx}'",
+    "test": "npm run typecheck && npm run format-check && npm run lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blinkorb/resolute-demo-async.git"
+  },
+  "keywords": [
+    "blinkorb",
+    "resolute",
+    "demo",
+    "async"
+  ],
+  "author": "BlinkOrb",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/blinkorb/resolute-demo-async/issues"
+  },
+  "homepage": "https://github.com/blinkorb/resolute-demo-async#readme",
+  "dependencies": {
+    "@blinkorb/resolute": "^0.0.1",
+    "@types/react": "^18.2.37",
+    "@types/react-dom": "^18.2.15",
+    "@types/react-helmet": "^6.1.9",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-helmet": "^6.1.0",
+    "react-jss": "^10.10.0",
+    "typescript": "^5.2.2"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^6.10.0",
+    "@typescript-eslint/parser": "^6.10.0",
+    "eslint": "^8.53.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-plugin-prettier": "^5.0.1",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-simple-import-sort": "^10.0.0",
+    "prettier": "^3.0.3"
+  }
+}

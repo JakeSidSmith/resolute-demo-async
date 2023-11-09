@@ -1,0 +1,13 @@
+/node_modules/*
+/coverage/*
+/build/*
+/static/*
+/server/*
+/dist/*
+/.vscode/*
+
+.DS_Store
+npm-debug.log*
+*.tgz
+*.pem
+*.env
