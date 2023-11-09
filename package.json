@@ -30,7 +30,7 @@
   },
   "homepage": "https://github.com/blinkorb/resolute-demo-async#readme",
   "dependencies": {
-    "@blinkorb/resolute": "^0.0.4",
+    "@blinkorb/resolute": "^0.0.5",
     "@types/react": "^18.2.37",
     "@types/react-dom": "^18.2.15",
     "@types/react-helmet": "^6.1.9",
