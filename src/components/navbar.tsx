@@ -30,7 +30,10 @@ const Navbar = () => {
   return (
     <nav className={styles.navbar}>
       <StyledLink href="/">Home</StyledLink>
-      <StyledLink href="/markdown">Markdown</StyledLink>
+      <StyledLink href="/async-component-and-api/">
+        Async component and API
+      </StyledLink>
+      <StyledLink href="/markdown/">Markdown</StyledLink>
     </nav>
   );
 };
